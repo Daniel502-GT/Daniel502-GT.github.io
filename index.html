@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js" integrity="sha512-DHNepbIus9t4e6YoMBSJLwl+nnm0tIwMBonsQQ+W9NKN6gVVVbomJs9Ii3mQ+HzGZiU5FyJLdnAz9a63ZgZvTQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="estilo.css">
+    <title>Porfolio</title>
+</head>
+<body>
+    <!-- Secciòn INICIO -->
+    <span class="sombra">
+        <section id="inicio" class="inicio">
+            <div class="contenido">
+                <header>
+                    <div class="logo">
+                        <i class="fa-brands fa-codepen"></i>
+                        <h1>Yosshua Guillen</h1>
+                    </div>
+                    <nav id="nav" class="">
+                        <a href="#inicio">Inicio</a>
+                        <a href="#servicios">Servicios</a>
+                        <a href="#habilidades">Habilidades</a>
+                        <a href="#trabajos">Trabajos</a>
+                        <a href="#contacto">Contacto</a>
+                    </nav>
+    
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+    
+                    <div class="redes">
+                        <a href="https://www.facebook.com/DanielGuillen502/"><i class="fa-brands fa-facebook-f"></i></a>
+                      
+                        <a href="https://www.linkedin.com/in/yosshua-daniel-guillen-granados-395a66173/"><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                </header>
+    
+                <div class="fila">
+                    <div class="col">
+                        <h2>Desarrollador Junior</h2>
+                        <p>Joven Programador con conocimientos en asp.net, c#,Administracion de base de datos SQL una persona capaz y autodidacta para aprender  las tareas que se me asignen, persona con valores y principios enfocado en lo que se le asignen.</p>
+                    </div>
+                    <div class="col">
+                        <div class="contenedor-img">
+                            <img src="img/foto-inicio.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </span>
+
+    <!-- sección SERVICIOS -->
+    <section id="servicios" class="servicios">
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-code"></i>
+                        </div>
+                    </div>
+                    <h3>Programador C#</h3>
+                    <p>Tengo experiencia haciendo proyectos personales y para empresas programando en el lenguaje de C#.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                    </div>
+                    <h3>Base de Datos</h3>
+                    <p>Conocimiento en Base de datos en el lenguaje de SQL , he trabajado con SQL server y Oracle.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-clipboard-question"></i>
+                        </div>
+                    </div>
+                    <h3>Help Desk</h3>
+                    <p>Apoyo tecnico en diferentes areas de Tecnologia y Logistica.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="col">
+                <div class="card">
+                    <div class="icono color1">
+                        <div class="circulo">
+                            <i class="fa-solid fa-university"></i>
+                        </div>
+                    </div>
+                    <h3>Estudiante</h3>
+                    <p>Estudiante activo de Universidad Mariano Galvez.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color2">
+                        <div class="circulo">
+                            <i class="fa-solid fa-circle-info"></i>
+                        </div>
+                    </div>
+                    <h3>Soporte Clientes</h3>
+                    <p>Soporte a demas areas que necesitan ayuda en el ambito de Tecnologia.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card">
+                    <div class="icono color3">
+                        <div class="circulo">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </div>
+                    </div>
+                    <h3>Control de Calidad</h3>
+                    <p>Tester en aplicaciones para ver la calidad del producto antes de salir a produccion.</p>
+
+                    <a href="#">Leer Más</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección habilidades -->
+    <section class="habilidades" id="habilidades">
+        <div class="contenedor-habi">
+            <h2>Habilidades</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="75">
+                                75%
+                            </div>
+                            <h2>HTML & CSS</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="70">
+                                70%
+                            </div>
+                            <h2>BOOSTRAP</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="80">
+                                80%
+                            </div>
+                            <h2>C#</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="fila">
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="50">
+                                50%
+                            </div>
+                            <h2>Asp.net</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="75">
+                                75%
+                            </div>
+                            <h2>SQL</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="score">
+                        <div class="box">
+                            <div class="chart" data-percent="50">
+                                50%
+                            </div>
+                            <h2>SQA</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección trabajos -->
+    <section class="trabajos" id="trabajos">
+        <h2>Mis Trabajos</h2>
+
+        <nav>
+            <a href="javascript:void(0)" class="borde" id="item" onclick="verCategoria('item')">Todos</a>
+            <a href="javascript:void(0)" class="" id="disenio" onclick="verCategoria('disenio')">Diseño</a>
+            <a href="javascript:void(0)" class="" id="programacion" onclick="verCategoria('programacion')">Programación</a>
+            <a href="javascript:void(0)" class="" id="animaciones" onclick="verCategoria('animaciones')">Animaciones</a>
+        </nav>
+
+        <div class="galeria">
+            <div class="item disenio">
+                <img src="img/c.png" alt="">
+                <div class="info">
+                    <h3>Sys Ordenes de Pago</h3>
+                    <span>c#</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item programacion">
+                <img src="img/asp.net_.logo_.png" alt="">
+                <div class="info">
+                    <h3>Sys Gimnacio</h3>
+                    <span>html</span><span>css</span><span>asp.net</span><span>Json</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            <div class="item animaciones">
+                <img src="img/asp.net_.logo_.png" alt="">
+                <div class="info">
+                    <h3>Sys Clientes</h3>
+                    <span>html</span><span>css</span><span>asp.net</span><span>Json</span>
+                    <a href="#">Ver Trabajo</a>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- sección contacto -->
+    <section class="contacto" id="contacto">
+        <div class="contenedor-contacto">
+            <h2>Contacto</h2>
+            <div class="fila">
+                <div class="col">
+                    <div class="info">
+                        <h3>Email:</h3>
+                        <p>danirep.dg7@gmail.com</p>
+                    </div>
+                    <div class="info">
+                        <h3>LinkedIn:</h3>
+                        <p>https://www.linkedin.com/in/yosshua-daniel-guillen-granados-395a66173/</p>
+                    </div>
+                    <div class="info">
+                        <h3>País</h3>
+                        <p>Guatemala</p>
+                    </div>
+                   
+                
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Yosshua Angel Daniel Guillen Granados.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>
